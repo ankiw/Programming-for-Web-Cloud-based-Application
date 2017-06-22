@@ -1,0 +1,159 @@
+#body{
+
+
+}
+
+#header {
+    z-index: 1;
+    position: fixed;
+    width: 97.5%;
+    margin-top: -20px;
+    height: 60px;
+    background-color: #dddddd;
+    margin-bottom: 10px;
+}
+
+#name {
+    float:left;
+    margin-left: 5px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #2b542c;
+}
+
+ul {
+     list-style-type: none;
+    margin-left: 5px;
+    padding-top: 5px;
+     overflow: hidden;
+     background-color: #dddddd;
+ }
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+.sections {
+    display: flex;
+    align-items: center;
+}
+.sections ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    background-color: deepskyblue;
+}
+.sections li {
+    padding: 20px;
+    margin-left: 20px;
+    background-color: lightblue;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#nav {
+    position: relative;
+    background-color: deepskyblue;
+    float: left;
+    width: 11%;
+    height: 830px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+#nav_wrapper {
+    width: 100%;
+    margin: 0px auto;
+    text-align: left;
+    z-index: 1;
+    display: block;
+    padding: 8px;
+}
+#nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+#nav ul li {
+    display: block;
+
+}
+#nav ul li:hover {
+    background-color: transparent;
+    width: 219px;
+
+}
+#nav ul a,visited {
+    color: #d43f3a;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+#nav ul a:hover {
+    color: transparent;
+    text-decoration: none;
+    padding: auto;
+    display: block;
+}
+#nav ul li:hover ul {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#nav ul ul {
+    display: none;
+    position: absolute;
+}
+#nav ul ul li {
+    display: flex;
+    padding: 25.5px;
+    background-color: transparent;
+}
+
+#nav ul ul li:hover {
+    color: transparent;
+    width: 168px;
+}
+#nav ul ul li,visited {
+    color: lightgoldenrodyellow;
+    margin: 0;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: lightblue;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+li:hover .sub_navi {
+    background: #999;
+    border: #099 solid;
+    border-width: 1px;
+    display: block;
+    position: absolute;
+    left: 290px;
+    top: 100px;
+}
+
+#footer {
+    height: 40px;
+    width: 100%;
+    background-color: orange;
+    clear: both;
+    padding: 0px;
+    bottom: 0px;
+}
+#footer p {
+    margin-top: 10px;
+    margin-left: 400px;
+    text-shadow: 1px 1px 1px black;
+    color: deepskyblue;
+}
