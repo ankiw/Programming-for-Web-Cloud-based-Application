@@ -1,0 +1,178 @@
+
+.apphead
+{
+    width:600px;
+margin:50px auto;
+}
+.heading
+{
+    font-weight:600;
+font-size:52px;
+    text-align:center;
+    
+}
+#searchuser
+{
+    margin:50px auto;
+}
+.subhead
+{
+  text-align:center;
+}
+
+.panelprofile
+{
+    background-color: #d95a6a;
+}
+.avatar
+{
+    width:100%;
+    border-radius:9px;
+}
+.profilebtn
+{
+    width:100%;
+    text-align:center;
+    
+}
+
+.repos
+{
+    font-size:12px;
+}
+.texttransform
+{
+    text-transform: capitalize;
+    font-size: 22px;
+    
+}
+
+.repodesc
+{
+    margin-top:8px;
+    font-size:14px;
+}
+
+
+@media only screen 
+  and (min-device-width: 500px) 
+  and (max-device-width: 700px)
+  {
+   .heading
+    {
+    width:60%; 
+        margin-left:20px;
+        
+    }
+        .subhead
+{
+   width:60%; 
+        margin-left:20px;  
+}
+}
+@media only screen and (max-width: 500px) {
+    
+    .repobtn
+{
+    margin-top:5px;
+    width:200px;
+    margin:50px auto;
+    margin-bottom:5px;
+}
+    .heading
+    {
+    width:60%; 
+        margin-left:20px;
+        
+    }
+        .subhead
+{
+   width:60%; 
+        margin-left:20px;  
+}
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .repobtn
+{
+    margin-top:5px;
+    width:200px;
+    margin:50px auto;
+    margin-bottom:5px;
+}
+    .heading
+    {
+    width:60%; 
+        margin-left:60px;   
+    }
+    .subhead
+{
+   width:60%; 
+        margin-left:60px;  
+}
+}
+
+@media only screen and (max-width: 700px) {
+   
+    
+    .repobtn
+{
+    margin-top:5px;
+    width:200px;
+    margin:50px auto;
+    margin-bottom:5px;
+}
+    .avatar
+    {
+        width:60%;
+        margin :50px auto;
+    }
+    .profilebtn
+    {
+        width:60%;
+       margin :50px auto; 
+    }
+}
+@media only screen and (max-width: 900px) {
+   
+    
+    .repobtn
+{
+    margin-top:5px;
+    width:200px;
+    margin:50px auto;
+    margin-bottom:5px;
+}
+     .avatar
+    {
+        width:60%;
+        margin :50px auto;
+    }
+     .profilebtn
+    {
+        width:60%;
+       margin :50px auto; 
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+  
+    .repobtn
+{
+    margin-top:5px;
+    width:200px;
+    margin:50px auto;
+    margin-bottom:5px;
+}
+     .avatar
+    {
+        width:60%;
+        margin :50px auto;
+    }
+     .profilebtn
+    {
+        width:60%;
+       margin :50px auto; 
+    }
+}
