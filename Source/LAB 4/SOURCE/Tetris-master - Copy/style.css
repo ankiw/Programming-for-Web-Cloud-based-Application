@@ -1,0 +1,14 @@
+canvas{
+    border: 3px solid black;
+    margin: auto;
+    display: block;
+}
+
+#score {
+    border: 1px solid black;
+    width: 50px;
+    height: 10px;
+    margin: auto;
+    text-align: center;
+    display: table;
+}

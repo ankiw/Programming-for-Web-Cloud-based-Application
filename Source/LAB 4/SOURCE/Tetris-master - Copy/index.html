@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html lang="en-US"  >
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Tetris</title>
+
+    <link rel="stylesheet" href="style/main.css"/>
+    <link rel="stylesheet" href="style/mobile.css"
+          media="screen and (max-device-width: 768px) and (orientation: portrait),
+               screen and (max-device-width: 1024px) and (orientation:landscape)"/>
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+
+    <script src="scripts/AMD.js" data-src="game" data-root="scripts"></script>
+
+</head>
+<body>
+<div id="game">
+
+    <!--SPLASH SCREEN-->
+    <div class="screen" id="splash-screen">
+        <h1 class="logo">
+            <span>T</span>
+            <span>e</span>
+            <span>t</span>
+            <span>r</span>
+            <span>i</span>
+            <span>s</span>
+        </h1>
+        <span class="continue">Click to continue</span>
+        <div class="progress">
+            <div class="indicator"></div>
+        </div>
+    </div>
+
+    <!--MENU-->
+    <div class="screen" id="main-menu">
+        <h1 class="logo">
+            <span>T</span>
+            <span>e</span>
+            <span>t</span>
+            <span>r</span>
+            <span>i</span>
+            <span>s</span>
+        </h1>
+        <ul class="menu">
+            <li><button name="game-screen">Play</button></li>
+            <li><button name="high-scores">High score</button></li>
+            <li><button name="about">About</button></li>
+            <li><button name="exit-screen">Exit</button></li>
+        </ul>
+    </div>
+
+    <div class="screen" id="game-screen">
+        <div class="announcement"></div>
+        <div class="game-board jewel-size">
+        </div>
+        <div class="game-info">
+            <label class="level" for="">Level: <br/><span></span></label>
+            <label class="nextLevel" for="">next level: <br/><span></span></label>
+            <label class="score" for="">Score: <br/><span></span></label>
+        </div>
+
+        <footer>
+            <button class="exit">Exit</button>
+            <button class="pause">pause</button>
+            <button class="reset">reset</button>
+        </footer>
+        <div class="pause-overlay">
+            <div class="pause-text">pause</div>
+        </div>
+    </div>
+
+    <div class="screen" id="high-scores">
+        <h2 class="logo">high score</h2>
+        <ol class="score-list"></ol>
+        <footer>
+            <button name="back">Back</button>
+        </footer>
+    </div>
+
+</div>
+
+</body>
+</html>
