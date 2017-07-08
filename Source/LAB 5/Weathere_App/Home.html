@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="" >
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/readable/bootstrap.min.css">
+    <link rel="stylesheet" href="Home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js" type="application/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWhSE1HAi753_M8rcFTfcbBXUQInf8y6c&v=3.exp&sensor=true&amp;libraries=places"></script>
+    <script src="Home.js" type="text/javascript"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-light bg-faded">
+    <h1 class="navbar-brand m-b-0">Welcome
+    </h1>
+    <a href="Login.html" class="btn btn-link" id="logout">Logout
+        <span >
+                <i class="glyphicon glyphicon-off"></i>
+            </span></a>
+</nav>
+<div class="geo" data-ng-app="geolocation" ng-controller="googlemapoutput">
+    <form>
+        <div class="form-group">
+            <div class="col-xs-3">
+                <input class="form-control" id="startLocation" type="text">
+            </div>
+            <div class="col-xs-3">
+                <input class="form-control" id="endLocation" type="text">
+            </div>
+        </div>
+        <button type="submit" ng-click="calcRoute()" class="btn btn-primary">Get forecast report</button>
+    </form>
+    <div id="map-canvas" >
+    </div>
+</div>
+</body>
+</html>

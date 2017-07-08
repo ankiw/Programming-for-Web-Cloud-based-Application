@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+body  {
+  background-image: url("http://temp_thoughts_resize.s3.amazonaws.com/64/d3d796c846a721fb15e51a65d28b24/Swirls_DJ_Dance_Floor_Wallpaper_cpjo5.jpg");
+  background-color: #000000;
+}
+
+.container {
+  padding: 30px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/* Form styles */
+
+.entry-label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#search-entry {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#js-youtube-search-form button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+/* Result Grid styles */
+
+#search-results {
+  margin-top: 50px;
+  background: #ccc;
+  border: 5px solid #aaa;
+  text-align: center;
+}
+
+.row {
+  display: block;
+  padding: 50px;
+}
+
+.col {
+  display: inline-block;
+  width: 33%;
+  color: white;
+  padding-bottom: 15px;
+  border: 3px solid #aaa;
+  background: black;
+  text-align: center;
+}
+
+.col:hover {
+  border: 3px solid black;
+}
+
+.see-more a {
+  color: white;
+  text-decoration: none;
+}
+
+.see-more a:hover {
+  font-weight: bold;
+}
+
+.pagination {
+  padding: 20px;
+}
+
+.pagination button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.pagination button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+/* No Result Styles */
+
+#no-results {
+  margin-top: 50px;
+}
+
+#no-results p {
+  font-weight: bold;
+}
